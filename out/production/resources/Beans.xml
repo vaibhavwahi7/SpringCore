@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:util="http://www.springframework.org/schema/util"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+                           http://www.springframework.org/schema/beans/spring-beans-4.0.xsd http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:annotation-config/>
+<context:component-scan base-package="com.vaibhav">
+
+</context:component-scan>
+
+    <!--<bean class="Database">-->
+        <!--<property name="port" value="2020"></property>-->
+        <!--<property name="name" value="Vaibhav"></property>-->
+    <!--</bean>-->
+
+    <!--<bean id="tea" class="Tea">-->
+
+    <!--</bean>-->
+
+    <!--<bean id="hotDrink" class="ExpressTea">-->
+
+    <!--</bean>-->
+
+    <!--&lt;!&ndash;<bean name="expressRestaurant" class="Restaurant">&ndash;&gt;-->
+        <!--&lt;!&ndash;<property name="hotDrink">&ndash;&gt;-->
+            <!--&lt;!&ndash;<bean class="ExpressTea"></bean>&ndash;&gt;-->
+        <!--&lt;!&ndash;</property>&ndash;&gt;-->
+    <!--&lt;!&ndash;</bean>&ndash;&gt;-->
+<!--<bean class="Complex" name="complexBean">-->
+    <!--<property name="list">-->
+<!--<list>-->
+    <!--<value>abc</value>-->
+    <!--<value>xyz</value>-->
+<!--</list>-->
+    <!--</property>-->
+    <!--<property name="set">-->
+        <!--<set>-->
+            <!--<value>first</value>-->
+            <!--<value>second</value>-->
+        <!--</set>-->
+    <!--</property>-->
+    <!--<property name="map">-->
+        <!--<map>-->
+            <!--<entry key="1" value="Vaibhav"></entry>-->
+            <!--<entry key="2" value="Wahi"></entry>-->
+        <!--</map>-->
+    <!--</property>-->
+<!--</bean>-->
+
+
+
+    <!--&lt;!&ndash;<bean id="restaurant" class="Restaurant" autowire="byName" />&ndash;&gt;-->
+<!--&lt;!&ndash;&lt;!&ndash;<bean id="hotDrink" class="Tea">&ndash;&gt;&ndash;&gt;-->
+
+
+<!--&lt;!&ndash;</bean>&ndash;&gt;-->
+    <!--<bean id="restaurant" class="Restaurant" autowire="byName" />-->
+
+</beans>

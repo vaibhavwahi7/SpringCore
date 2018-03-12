@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringNew.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringNew.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringNew_main.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringNew_main.iml" group="SpringNew" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SpringNew_test.iml" filepath="$PROJECT_DIR$/.idea/modules/SpringNew_test.iml" group="SpringNew" />
+    </modules>
+  </component>
+</project>
